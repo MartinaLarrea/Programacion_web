@@ -1,0 +1,53 @@
+<!DOCTYPE html>   <!-- establece tipo de archivo html -->
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Mi pagina de prueba</title>
+
+    </head>
+
+    <body>
+        <div>  <!-- se emplesa para definir un bloque de contenido o sección de la página -->
+            <nav class="menu">  <!-- la clase se puede repetir -->
+                <!-- nav genera unna sección de una página 
+                cuyo propósito es proporcionar enlaces de navegación -->
+                <img src="assets/img/descarga.png" alt="foto UCEMA" height="300"> <!-- height y width 
+                    establece el tamaño en pixeles -->
+                <ul>  <!-- lista desordeada -->
+                  <li> <!-- cada linea de la lista desordenada  -->
+                    <a href="#">Inicio</a></li> <!-- href hace referecia a un hiperviculo -->
+                  <li><a href="#">Sobre nosotros</a></li>
+                  <li><a href="#">Contacto</a></li>
+                </ul>
+              </nav>
+        </div>
+        <section id="main"> <!-- section representa una sección genérica de un documento -->
+            <!-- id es unico para cada pagina, si se repite toma el primero
+            su propósito es identificar el elemento al vincularlo, tiene mas peso que las clases -->
+
+            <video src="assets/video/vid_1x1_04.mp4" 
+            alt="Video de motos"
+            autoplay muted loop type="video/mp4"> <!-- autoplay hace que se comience a reproducir y muted lo silencia 
+            si no le pones muted el autoplay no funciona, ya que si ponemos muchos videos con autoplay sonarian todos juntos
+            loop hace que nunca termine
+            type se usa para determina el tipo de entrada que se va a utilizar-->
+
+
+            </video> 
+            <p>
+                Lorem ipsum dolor sit amet, <br>
+                consectetur adipiscing elit, sed do eiusmod <br>
+                tempor incididunt ut labore et dolore magna aliqua. <br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>
+                laboris nisi ut aliquip ex ea commodo consequat. Duis <br>
+                aute irure dolor in reprehenderit in voluptate velit es. <br>
+            </p>
+            <button>click</button>
+        </section>
+        <footer>  <!-- funciona como un section-->
+
+        </footer>
+    </body>
+
+</html>
