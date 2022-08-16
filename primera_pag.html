@@ -22,7 +22,59 @@
             width establece que ocupa un 30% de la pantalla -->
         <br>
         <audio src="audios/audio_ej.mp3" controls></audio>
-        
+        <form action="/my-handling-form-page" method="post">   <!-- abre el formulario -->
+            <!-- incluimos una etiqueta explícita para cada control de formulario. Ten en cuenta
+              el uso del atributo for en todos los elementos <label>, que toma como valor el id del
+              control de formulario con el que está asociado; así es como asocias un formulario 
+              con su etiqueta. -->
+  
+          <nav>
+          <ul>
+            <li>
+              <label for="name">Nombre:</label>   <!-- etiqueta del primer campo -->
+              <input type="text" id="name" name="user_name" placeholder="Ingrese su nombre">  <!-- se hace un input donde
+                      establece el tipo de entrada permitida, texto en este caso -->
+            </li>
+            <li>
+              <label for="mail">Correo electrónico:</label>   <!-- el tipo de input email solo permite
+                  una sola línea que acepta solo direcciones de correo electrónico -->
+              <input type="email" id="mail" name="user_mail" value="Ingrese su email"> 
+                  <!-- value es el texto que aparece por default -->
+            </li>
+            <li>
+              <label for="edad">Edad:</label>
+              <input type="number" id="edad" name="edad" min="10" max="99">
+            </li>
+            <li>
+               <label for="msg">Mensaje:</label>
+               <textarea id="msg" name="user_message" required></textarea>  
+                <!-- textarea es un campo de entrada demultiples lineas -->
+                <!-- required significa que es obligatorio -->
+            </li>
+            <li>
+              <label for="contraseña">Cotraseña:</label>   <!-- etiqueta del primer campo -->
+              <input type="password" id="password" name="password">  
+            </li>
+            <li>
+              <label for="fechanac">Nacimieto:</label>   <!-- etiqueta del primer campo -->
+              <input type="date" id="nacimiento" name="fechanac">  
+            </li>
+          </ul>
+          </nav>
+                
+            <input type="radio"  name="sexo" value="Masculino">Masculino <br>
+            <input type="radio"  name="sexo" value="femenino">Femenino <br>
+            <input type="radio"  name="sexo" value="otro">Otro 
+  
+            <br>
+            <input type="checkbox" name="info">Quiero recibir informacion
+            <br>
+              
+            <button type="submit">Envíe su mensaje</button>
+            <!-- type puede ser submit reset o simplemente button -->
+            <!-- submit envia la respuesta al action que pusimos cuando abrimos el form -->
+  
+          </form>
     </body>
 
 </html>
