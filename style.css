@@ -14,9 +14,11 @@ nav li{margin-left: 20px; list-style: none;} /* list-style: none le saca el punt
 nav a{text-decoration: none;
 color: rgb(104, 43, 43);} /* text-decoration: none le saca el subrayado */
 
+nav a:hover{color: brown;}
+
 nav img{width: 5%; height: auto; display: flex;}
  
-.menu{align-items: center;}
+.menu{align-items: center; justify-content: center;}
 
 /* el * selecciona toda la pagina */
 /* si pongo div selecciona todos los divs */
