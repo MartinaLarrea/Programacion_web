@@ -10,13 +10,15 @@ nav ul{display: flex;} /* la lista que esta adentro de nav*/
 nav li{margin-left: 20px; list-style: none;} /* list-style: none le saca el punto */
  
 nav a{text-decoration: none;
-color: rgb(104, 43, 43);} /* text-decoration: none le saca el subrayado */
+color: rgb(129, 54, 54);} /* text-decoration: none le saca el subrayado */
 
-nav a:hover{color: rgb(121, 22, 22);}
+nav a:hover{color: rgb(53, 21, 21);}
 
 nav img{width: 5%; height: auto; display: flex;}
  
 .menu{align-items: center; justify-content: center;}
+
+p{background-color: bisque;}
 
 /* el * selecciona toda la pagina */
 /* si pongo div selecciona todos los divs */
