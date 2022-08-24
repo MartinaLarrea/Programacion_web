@@ -3,8 +3,6 @@
 
 #main{background-color:bisque;}
 
-
-
 nav{display: flex; flex-direction: row;}
 
 nav ul{display: flex;} /* la lista que esta adentro de nav*/
