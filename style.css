@@ -20,6 +20,8 @@ nav img{width: 5%; height: auto; display: flex;}
 
 p{background-color: bisque;}
 
+section{display: flex; flex-direction: column;}
+
 /* el * selecciona toda la pagina */
 /* si pongo div selecciona todos los divs */
 /* el #main selecciona todo lo que este bajo el id main */
