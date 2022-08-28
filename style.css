@@ -1,27 +1,15 @@
+*{ font-family: Cambria; background-color:beige; margin: 10px;}
 
-*{background-color: beige; padding:5px;}
+#inicio{display: flex; justify-content: space-around; font-size: large;}
 
-#main{background-color:bisque;}
+#menu{padding-top: 4%;}
 
-nav{display: flex; flex-direction: row;}
+section{font-size: small;}
 
-nav ul{display: flex;} /* la lista que esta adentro de nav*/
+b{padding: 1%; padding-top: 1%;}
 
-nav li{margin-left: 20px; list-style: none;} /* list-style: none le saca el punto */
- 
-nav a{text-decoration: none;
-color: rgb(129, 54, 54);} /* text-decoration: none le saca el subrayado */
+p{font-size: small;}
 
-nav a:hover{color: rgb(53, 21, 21);}
+#info{align-items: center;}
 
-nav img{width: 5%; height: auto; display: flex;}
- 
-.menu{align-items: center; justify-content: center;}
-
-p{background-color: bisque;}
-
-section{display: flex; flex-direction: column;}
-
-/* el * selecciona toda la pagina */
-/* si pongo div selecciona todos los divs */
-/* el #main selecciona todo lo que este bajo el id main */
+form{align-self: auto;}

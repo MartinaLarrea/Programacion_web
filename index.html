@@ -1,52 +1,62 @@
-<!DOCTYPE html>   <!-- establece tipo de archivo html -->
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Mi pagina de prueba</title>
-        <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    </head>
+    <title>Staruzz</title>
+  </head>
+  <body>
+    
+    <div id="inicio" class="row">
+      <div class="col-md-2"><img src="assets/img/tasa3.png" alt="logo" width="80px" ></div>
+      <div class="col-md-3" id="menu">Sobre nosotros</div>
+      <div class="col-md-3" id="menu">Productos</div>
+      <div class="col-md-3" id="menu">Contacto</div>
+    </div>
 
-    <body>
-        
-        <div class="menu">  <!-- se emplesa para definir un bloque de contenido o sección de la página -->
-            <nav >  <!-- la clase se puede repetir -->
-                <!-- nav genera unna sección de una página 
-                cuyo propósito es proporcionar enlaces de navegación -->
-                <img src="assets/img/descarga.png" alt="logo"> <!-- height y width 
-                    establece el tamaño en pixeles -->
-                <ul>  <!-- lista desordeada -->
-                  <li> <!-- cada linea de la lista desordenada  -->
-                    <a href="#">Inicio</a></li> <!-- href hace referecia a un hiperviculo -->
-                  <li><a href="#">Sobre nosotros</a></li>
-                  <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <div id="info" class="row">
+      <div class="col-md-6"><img src="assets/img/cafeteria.png" alt="cafeteria" width="90%"></div>
+      <div class="col-md-5">
+        <div class="row"><b>Nuestra historia</b></div>
+        <div class="row"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+          veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+           ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+           consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p></div>
+      </div>
+    </div>
+
+    <section class="container-xlg">
+      <h5><b>Dejanos tu opinión</b></h5>
+      <form>
+        <div class="mb-3">
+          <label for="nombre">Nombre:</label>
+          <input type="nombre" id="nombre" placeholder="Ingrese su nombre">
         </div>
-        <section id="main"> <!-- section representa una sección genérica de un documento -->
-            <!-- id es unico para cada pagina, si se repite toma el primero
-            su propósito es identificar el elemento al vincularlo, tiene mas peso que las clases -->
-
-            <video src="assets/video/vid_1x1_04.mp4" 
-            alt="Video de motos"
-            autoplay muted loop type="video/mp4"> <!-- autoplay hace que se comience a reproducir y muted lo silencia 
-            si no le pones muted el autoplay no funciona, ya que si ponemos muchos videos con autoplay sonarian todos juntos
-            loop hace que nunca termine
-            type se usa para determina el tipo de entrada que se va a utilizar-->
-
-            </video> 
-            <p>
-                Lorem ipsum dolor sit amet, <br>
-                consectetur adipiscing elit, sed do eiusmod <br>
-                tempor incididunt ut labore et dolore magna aliqua. <br>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>
-                laboris nisi ut aliquip ex ea commodo consequat. <br>
-            </p>
-        </section>
-        <footer>  <!-- funciona como un section-->
-
-        </footer>
-    </body>
-
+        <div class="mb-3">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" placeholder="Ingrese su email">
+        </div>
+        
+        <div class="mb-3">
+          <label for="msg">Mensaje:</label>
+          <textarea id="msg" name="user_message" required></textarea>  
+        </div>
+        <div>
+          <label for="info">Quiero recibir información</label>
+          <input type="checkbox" name="info">
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    
+  </body>
 </html>
