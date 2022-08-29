@@ -1,9 +1,8 @@
-*{ font-family: Cambria; background-color:beige; margin: 10px;}
+*{ font-family: Raleway; background-color:beige; margin: 10px;}
 
 .row{border: 0ch;margin: 0%; padding: 0%;}
 
-section{border: 0ch; padding: 0%; margin: 0%;}
-
+section{border: 0ch;margin: 0%; padding: 0%;}
 
 #menu{padding-top: 3%; }
 
@@ -17,4 +16,14 @@ p{font-size: small;}
 
 #info{align-items: center;}
 
-form{align-self: auto;}
+form{align-self: auto; font-size: small;}
+
+.pie{display: flex;justify-content: flex-end; }
+
+.pie a:hover{color:black ;}
+
+footer{border: 0ch;margin: 0%; padding: 0%;}
+
+div.pie{border: 0ch;margin: 0%; padding: 0%;}
+
+form{border: 0ch;margin: 0%; padding: 0%;}
