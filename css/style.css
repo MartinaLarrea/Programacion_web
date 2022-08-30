@@ -1,20 +1,22 @@
-*{ font-family: Raleway; background-color:beige; margin: 10px;}
+*{ font-family: Raleway; background-color:beige;}
 
-.row{border: 0ch;margin: 0%; padding: 0%;}
+section{padding: 10px; background-color: beige;}
 
-section{border: 0ch;margin: 0%; padding: 0%;}
-
-#menu{padding-top: 3%; }
+#menu{padding-top: 3%; font-size: large;}
 
 div a{text-decoration: none; color: rgb(88, 61, 61);}
 
 #menu :hover{color: black;}
 
-b{padding: 0%; padding-top: 1%;}
+div span{background-color: transparent;}
 
-p{font-size: small;}
+div.carousel-indicators{background-color: transparent;}
 
-.accordion{padding: 1%; margin: 0%;}
+#historia{background-color: beige; padding-top: 5%;}
+
+b{padding: 0%; padding-top: 1%; font-size: larger;}
+
+p{font-size: large;}
 
 #info{align-items: center;}
 
@@ -30,4 +32,3 @@ footer{border: 0ch;margin: 0%; padding: 0%;}
 
 div.pie{border: 0ch;margin: 0%; padding: 0%;}
 
-form{border: 0ch;margin: 0%; padding: 0%;}
