@@ -18,15 +18,17 @@ b{padding: 0%; padding-top: 1%; font-size: larger;}
 
 p{font-size: large;}
 
+h5{background-color: transparent;}
+
 #info{align-items: center;}
 
-form{align-self: auto; font-size: small;}
+form{align-self: auto; font-size: large;}
 
 form button{margin-left: 2%;}
 
-.pie{display: flex;justify-content: flex-end; }
+footer #pie{display: flex;justify-content: flex-end; }
 
-.pie a:hover{color:black ;}
+footer #pie a:hover{color:black ;}
 
 footer{border: 0ch;margin: 0%; padding: 0%;}
 
