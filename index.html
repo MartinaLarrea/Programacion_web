@@ -4,7 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
+    <link href="/assets/img/logo nuevo.png" rel="icon">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -32,13 +33,13 @@
             <li><a class="nav-link scrollto" href="#productos">Productos</a></li>
             <li><a class="nav-link scrollto" href="#reservas">Reservas</a></li>
           </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
+          <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
         </nav>
       </div>
     </header>
 
     <section id="hero" class="d-flex align-items-center">
-      <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="container position-relative text-center text-lg-start" >
         <div class="row">
           <div class="col-lg-8">
             <h1>Bienvenido a <span>Belle vie</span></h1>
@@ -67,82 +68,201 @@
     </div>
     </div></section>
 
+    <section id="menu" class="menu section-bg">
+      <div class="container" >
 
-    <section class="acordion" id="productos"><br><div class="container">
-      <h4><b>Nuestros productos</b></h4>
-    <div class="accordion accordion-flush" id="accordionFlushExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingOne">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            <h5>Cafetería</h5>
-          </button>
-        </h2>
-        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Café $300<br>Descafeinado $490<br>Cortado en vasito $360<br>
-            Café doble o con leche $490<br>Cappuccino $490<br>Cappuccino Super $650<br>Vainilla latte $600<br>
-            Caramel latte $570<br>Mocca latte $600<br>
-            <br>Extra size $110 - Extra shot $110<br>Extra Descafeinado $110</div>
+        <div class="section-title">
+          <h2>Menu</h2>
         </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            <h5>Otras bebidas</h5>
-          </button>
-        </h2>
-        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">​Jugo exprimido de naranja $400<br>Limonada clásica $350<br>
-            Limonada de menta y jengibre $370<br>Jugo de naranja, frutillas, banana y yoghurt 
-            descremado de vainilla $420<br>Submarino $410
+
+        <div class="row" >
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">Todo</li>
+              <li data-filter=".filter-cafe">Cafetería</li>
+              <li data-filter=".filter-bebidas">Otras bebidas</li>
+              <li data-filter=".filter-brunch">Brunch</li>
+            </ul>
           </div>
         </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            <h5>Brunch</h5>
-          </button>
-        </h2>
-        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body"><strong>Dulces</strong><br> 
-            Brownie de dulce de leche y merengue $490 <br> 
-            ​Cheesecake classic $640 <br>Cheesecake Oreo $640 <br> 
-            Cheesecake Maracuyá $720<br>Chocotorta $620<br>Yoghurt con granola $650<br>
-            Muffin de vainilla $280<br>​Scon de queso $280<br>Croissant aux amandes $560<br>
-          <strong>Salado</strong><br>
-          Sandwich de salmón ahumado rúcula y huevos tibios en pan con semillas de amapola $3000<br>
-          Huevos revueltos con champignons, espinaca, tomate, ajo, zanahoria y queso feta. $970<br>
-          Tostó de pan integral con palta y huevo poché $1070<br>
-          </div>
-        </div>
-      </div>
-      <br><hr>
-    </div></div></section>
 
-    <section class="formulario" id="reservas"> <div class="container"><div class="row">
+        <div class="row menu-container">
+
+          <div class="col-lg-6 menu-item filter-cafe">
+            <img src="assets/img/menu/cafe.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Café</a><span>$300</span>
+            </div>
+            <div class="menu-ingredients">
+              Café santos bourbon de brasil a base de 60 ml de café expresso y 60 ml agua, 120 ml.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cafe">
+            <img src="assets/img/menu/cortado2.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Café cortado</a><span>$350</span>
+            </div>
+            <div class="menu-ingredients">
+              Expresso doble cortado con leche espumada.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cafe">
+            <img src="assets/img/menu/cappuccino2.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Cappuccino</a><span>$420</span>
+            </div>
+            <div class="menu-ingredients">
+              Expresso doble con leche espumada, cacao amargo y canela.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cafe">
+            <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Lágrima</a><span>$440</span>
+            </div>
+            <div class="menu-ingredients">
+              Leche texturizada con un shot de café expresso.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-cafe">
+            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Iced latte</a><span>$530</span>
+            </div>
+            <div class="menu-ingredients">
+              Café con leche frío, con hielo.
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-bebidas">
+
+            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Matcha latte</a><span>$500</span>
+            </div>
+            <div class="menu-ingredients">
+              Matcha con leche a elección.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Chai latte</a><span>$450</span>
+            </div>
+            <div class="menu-ingredients">
+              Té negro con jengibre, canela, cardamomo, clavo de olor y anís. Con leche y hielo opcionalS.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Submarino</a><span>$600</span>
+            </div>
+            <div class="menu-ingredients">
+              Leche caliente con una barra de chocolate amargo.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Chinese Gooseberry</a><span>$12.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Jugo especial de kiwi, naranja, jengibre, hielo y azúcar orgánica.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-brunch">
+            <img src="assets/img/menu/cookie.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Mega cookie</a><span>$540</span>
+            </div>
+            <div class="menu-ingredients">
+              Mega cookie con sabor a elección.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-brunch">
+            <img src="assets/img/menu/carrot.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Carrot Cake</a><span>$510</span>
+            </div>
+            <div class="menu-ingredients">
+              Espléndida torta humeda de zanahoria, porción individual.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-brunch">
+            <img src="assets/img/menu/croissant.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Croissant Clásico</a><span>$680</span>
+            </div>
+            <div class="menu-ingredients">
+              Mega croissant clásico relleno de jamón y queso.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-brunch">
+            <img src="assets/img/menu/brownie.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Brownie Clásico</a><span>$520</span>
+            </div>
+            <div class="menu-ingredients">
+              Brownie de chocolate, frutos rojos, pasta de maní y nueces, porción individual.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  
+
+    <section class="formulario" id="reservas"> <br><hr><br><div class="container"><div class="row">
       <div class="col-md-6"><img src="assets/img/pexels-helena-lopes-1015568.jpg" alt="" width="90%"></div>
       <div class="col-md-5">
       <h4><b>Reservas</b></h4><br>
-      <form>
-        <div class="mb-3">
-          <label for="nombre">Nombre:</label>
-          <input type="nombre" id="nombre" placeholder="Ingrese su nombre">
+      <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Por favor ingrese un email válido">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+            <input type="text" class="form-control" name="phone" id="phone" placeholder="Celular" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3">
+            <input type="text" name="date" class="form-control" id="date" placeholder="Fecha" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3">
+            <input type="text" class="form-control" name="time" id="time" placeholder="Hora" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3">
+            <input type="number" class="form-control" name="people" id="people" placeholder="Cantidad de personas" data-rule="minlen:1" data-msg="Por favor ingrese al menos 1 caracter">
+            <div class="validate"></div>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="email">Correo electrónico:</label>
-          <input type="email" id="email" placeholder="Ingrese su email">
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"></textarea>
+          <div class="validate"></div>
         </div>
-        
-        <div class="mb-3">
-          <label for="msg">Mensaje:</label>
-          <textarea id="msg" name="user_message" required></textarea>  
-        </div>
-        <div>
-          <label for="info">Quiero recibir información</label>
-          <input type="checkbox" name="info">
-        </div> <br>
-        <button type="submit">Enviar</button>
-      </form></div></div></div><br>
+        <br>
+        <div class="text-center"><button type="submit">Reservar</button></div>
+      </form>
+      </div></div></div><br>
     </section>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
