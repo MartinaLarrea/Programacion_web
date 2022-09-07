@@ -1,33 +1,38 @@
-*{ font-family: Raleway;;
+* { font-family: Raleway;;
     background-image:url("assets/img/primer1.jpg")}
 
-section{padding: 10px; background-color: beige;}
+section {
+  padding: 10px; background-color: beige;}
 
-#menu{padding-top: 3%; font-size: large;}
+#menu {
+  padding-top: 3%; font-size: large;}
 
-div a{text-decoration: none; color: rgb(88, 61, 61);}
+div a {
+  text-decoration: none; color: rgb(88, 61, 61);}
 
-#menu :hover{color: black;}
+#menu :hover {
+  color: black;}
 
-div span{background-color: transparent;}
+#historia {
+  background-color: beige; padding-top: 5%;}
 
-div.carousel-indicators{background-color: transparent;}
+b {
+  padding: 0%; padding-top: 1%; font-size: larger;}
 
-#historia{background-color: beige; padding-top: 5%;}
+p {
+  font-size: large;}
 
-b{padding: 0%; padding-top: 1%; font-size: larger;}
+h5 {
+  background-color: transparent;}
 
-p{font-size: large;}
+#info {
+  align-items: center;}
 
-h5{background-color: transparent;}
+form {
+  align-self: auto; font-size: large;}
 
-#info{align-items: center;}
-
-form{align-self: auto; font-size: large;}
-
-form button{margin-left: 2%;}
-
-#pie{text-align: center;}
+#pie {
+  text-align: center;}
 
 #hero {
     width: 100%;
@@ -167,6 +172,8 @@ form button{margin-left: 2%;}
     top: 0px;
   }
   
+  header {position: sticky;top: 0;}
+
   #header.header-scrolled {
     top: 0;
     background: rgba(54, 51, 44, 0.6);
@@ -216,7 +223,6 @@ form button{margin-left: 2%;}
     color: #d9ba85;
   }
   
-
   .menu #menu-flters {
     padding: 0;
     margin: 0 auto 0 auto;
