@@ -8,7 +8,7 @@ section {
   padding-top: 3%; font-size: large;}
 
 div a {
-  text-decoration: none; color: rgb(88, 61, 61);}
+  text-decoration: none; color: #d9ba85;}
 
 #menu :hover {
   color: black;}
@@ -223,7 +223,7 @@ form {
     color: #d9ba85;
   }
   
-  .menu #menu-flters {
+  .menu #menu-filters {
     padding: 0;
     margin: 0 auto 0 auto;
     list-style: none;
@@ -231,7 +231,7 @@ form {
     border-radius: 50px;
   }
   
-  .menu #menu-flters li {
+  .menu #menu-filters li {
     cursor: pointer;
     display: inline-block;
     padding: 8px 12px 10px 12px;
@@ -245,12 +245,12 @@ form {
     font-family: "Playfair Display", serif;
   }
   
-  .menu #menu-flters li:hover,
-  .menu #menu-flters li.filter-active {
+  .menu #menu-filters li:hover,
+  .menu #menu-filters li.filter-active {
     color: #30291c;
   }
   
-  .menu #menu-flters li:last-child {
+  .menu #menu-filters li:last-child {
     margin-right: 0;
   }
   
