@@ -181,10 +181,6 @@ form {
 
   #header h1 a:hover {color: #9b855e;}
 
-  .navbar {
-    padding: 0;
-  }
-  
   .navbar ul {
     margin: 0;
     padding: 0;
@@ -203,7 +199,6 @@ form {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    color: #fff;
     white-space: nowrap;
     transition: 0.3s;
     font-size: 14px;
@@ -222,7 +217,7 @@ form {
   .navbar li:hover>a {
     color: #d9ba85;
   }
-  
+
   .menu #menu-filters {
     padding: 0;
     margin: 0 auto 0 auto;
