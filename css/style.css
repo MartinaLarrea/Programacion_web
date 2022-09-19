@@ -217,37 +217,6 @@ form {
   .navbar li:hover>a {
     color: #d9ba85;
   }
-
-  .menu #menu-filters {
-    padding: 0;
-    margin: 0 auto 0 auto;
-    list-style: none;
-    text-align: center;
-    border-radius: 50px;
-  }
-  
-  .menu #menu-filters li {
-    cursor: pointer;
-    display: inline-block;
-    padding: 8px 12px 10px 12px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1;
-    color: #cda45e;
-    margin-bottom: 10px;
-    transition: all ease-in-out 0.3s;
-    border-radius: 50px;
-    font-family: "Playfair Display", serif;
-  }
-  
-  .menu #menu-filters li:hover,
-  .menu #menu-filters li.filter-active {
-    color: #30291c;
-  }
-  
-  .menu #menu-filters li:last-child {
-    margin-right: 0;
-  }
   
   .menu .menu-item {
     margin-top: 50px;
@@ -287,10 +256,6 @@ form {
     transition: 0.3s;
   }
   
-  .menu .menu-content a:hover {
-    color: #cda45e;
-  }
-  
   .menu .menu-content span {
     position: relative;
     z-index: 3;
@@ -305,4 +270,5 @@ form {
     font-size: 14px;
     font-family: "Poppins", sans-serif;
     color: #cda45e;
+    transition: 0.3s;
   }
